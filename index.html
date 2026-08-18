@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Persian Reader · Library</title>
+  <meta name="description" content="A guided library of Persian literature with close translations and grammatical annotations.">
+  <style>
+    :root{--ink:#35291f;--muted:#76695d;--paper:#f4eee3;--card:#fffdf8;--wine:#733e32;--gold:#c39a5c;--line:#dfd3c3}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--paper);font-family:Georgia,"Times New Roman",serif}
+    header{background:linear-gradient(120deg,#512b26,var(--wine));color:#fff;padding:22px clamp(20px,6vw,72px);display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:13px}.mark{display:grid;place-items:center;width:42px;height:42px;border:1px solid rgba(255,255,255,.45);border-radius:50%;font:26px Tahoma,sans-serif}.brand b{display:block;font:700 19px Tahoma,sans-serif}.brand small{display:block;margin-top:2px;letter-spacing:.18em;font:10px system-ui;color:#ead8c1}
+    main{max-width:1040px;margin:auto;padding:clamp(48px,8vw,90px) clamp(20px,5vw,48px)}
+    .eyebrow{margin:0 0 10px;color:var(--wine);font:700 12px system-ui;letter-spacing:.15em;text-transform:uppercase}
+    h1{font-size:clamp(38px,7vw,72px);line-height:.98;margin:0;max-width:720px;font-weight:500}.intro{max-width:670px;color:var(--muted);font-size:18px;line-height:1.65;margin:24px 0 50px}
+    .section-head{display:flex;align-items:end;justify-content:space-between;border-bottom:1px solid var(--line);margin-bottom:20px;padding-bottom:12px}.section-head h2{margin:0;font-size:24px}.section-head span{color:var(--muted);font:12px system-ui}
+    .shelf{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+    .book{display:block;position:relative;overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px;text-decoration:none;color:inherit;box-shadow:0 10px 30px rgba(58,39,27,.06);transition:transform .18s ease,box-shadow .18s ease}
+    .book:hover{transform:translateY(-3px);box-shadow:0 15px 38px rgba(58,39,27,.11)}.book:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+    .book:before{content:"";position:absolute;inset:0 auto 0 0;width:6px;background:var(--wine)}
+    .author{color:var(--wine);font:700 11px system-ui;letter-spacing:.13em;text-transform:uppercase}.fa-title{margin:14px 0 5px;font:700 34px/1.25 Tahoma,sans-serif}.en-title{font-size:22px;margin-bottom:16px}.description{color:var(--muted);line-height:1.55;margin:0 0 24px}.meta{display:flex;flex-wrap:wrap;gap:8px}.meta span{background:#f1e7d8;border-radius:999px;padding:6px 9px;color:#6e5741;font:600 11px system-ui}.open{display:block;margin-top:24px;color:var(--wine);font:700 13px system-ui}
+    .future{margin-top:42px;padding:22px 24px;border:1px dashed #c7b8a5;border-radius:14px;color:var(--muted);line-height:1.55}.future b{color:var(--ink)}
+    footer{max-width:1040px;margin:0 auto;padding:0 clamp(20px,5vw,48px) 45px;color:#8a7c6d;font:12px system-ui}
+    @media(max-width:560px){header{padding:16px 20px}.brand small{letter-spacing:.12em}.intro{font-size:16px}.section-head{align-items:start;flex-direction:column;gap:5px}.fa-title{font-size:30px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="mark" aria-hidden="true">ف</span><div><b lang="fa" dir="rtl">فارسی‌خوان</b><small>PERSIAN READER</small></div></div>
+  </header>
+  <main>
+    <p class="eyebrow">A guided reading library</p>
+    <h1>Read Persian literature without losing the thread.</h1>
+    <p class="intro">Close English translations, word-by-word dictionary help, morphology, verb construction charts, and selective grammar notes—designed to support the Persian text rather than replace it.</p>
+    <div class="section-head"><h2>Works</h2><span>3 works currently available</span></div>
+    <section class="shelf" aria-label="Available Persian works">
+      <a class="book" href="celebrated-ghazals.html">
+        <span class="author">Hafez · Saadi · Rumi · Attar · Iraqi · Jami</span>
+        <div class="fa-title" lang="fa" dir="rtl">غزل‌های نامدار</div>
+        <div class="en-title">Fifteen Celebrated Ghazals</div>
+        <p class="description">Fifteen celebrated pre-modern ghazals with close translations, word-by-word assistance, morphology, and contextual grammar notes.</p>
+        <div class="meta"><span>15 ghazals</span><span>167 couplets</span><span>2,596 word cards</span><span>Verb breakdowns</span></div>
+        <span class="open">Open the anthology →</span>
+      </a>
+      <a class="book" href="gulistan-reader-chapter-1-complete.html">
+        <span class="author">Saadi Shirazi · سعدی شیرازی</span>
+        <div class="fa-title" lang="fa" dir="rtl">گلستان</div>
+        <div class="en-title">The Gulistan</div>
+        <p class="description">Chapter One: On the Conduct of Kings. Read all forty-one stories with close translations and occurrence-specific language notes.</p>
+        <div class="meta"><span>41 stories</span><span>Word analysis</span><span>Grammar notes</span><span>Verb breakdowns</span></div>
+        <span class="open">Open the reader →</span>
+      </a>
+      <a class="book" href="jami-ghazals-1-15.html">
+        <span class="author">Mulla Jami · ملا جامی</span>
+        <div class="fa-title" lang="fa" dir="rtl">غزلیات جامی</div>
+        <div class="en-title">Ghazals of Jami</div>
+        <p class="description">Reviewed close readings of Jami’s ghazals, including their interwoven Arabic and Persian, with occurrence-specific language notes.</p>
+        <div class="meta"><span>2 reviewed ghazals</span><span>Close translation</span><span>Grammar notes</span><span>Verb breakdowns</span></div>
+        <span class="open">Open the reader →</span>
+      </a>
+    </section>
+    <div class="future"><b>The library can grow work by work.</b> Each future text can appear here under its author, while retaining the same reading interface and annotation system. Longer works can be divided into chapters or sections without crowding this page.</div>
+  </main>
+  <footer>Persian Reader · A personal guided-reading project</footer>
+</body>
+</html>
